@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: g1testapp
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7F8B42F96BE54D5AAC617F3A1DC04D37 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F311DDB4E584A23BCF85A83BDA83AB0 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
